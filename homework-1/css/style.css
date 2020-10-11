@@ -1,0 +1,27 @@
+.el {
+    color: grey;
+    text-decoration: none;
+}
+.el2 {
+    display: inline-block;
+    margin-left: 220px;
+    font-size: 15PX;
+}
+.card {
+    display: inline-block;
+     width: 420px; 
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+.cards {
+    margin-left: 120px;
+} 
+.card:nth-child(2n+1){
+    margin-right: 65px;
+}
+h3 {
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
