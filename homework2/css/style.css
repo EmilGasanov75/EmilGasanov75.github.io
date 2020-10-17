@@ -70,3 +70,6 @@ p {
     margin-bottom: 60px;
     line-height: 18.66px;
 }
+a:hover {
+    color: #03A9F4;
+}
