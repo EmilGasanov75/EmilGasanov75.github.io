@@ -1,23 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 ul {
     margin-top: 78px;
     margin-bottom: 18px;
     margin-left: 315px;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: grey;
-    text-decoration: none;
-
-}
-.listelement {
+li {
     display: inline-block;
     font-size: 15PX;
     margin-right: 100px;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    color: #03A9F4;
 }
 .card {
     display: inline-block;
@@ -33,27 +33,29 @@ a {
     margin-right: 66px;
 }
 h3 {
-    margin-top: 32px;
+    margin-top: 62px;
     margin-bottom: 32px;
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 16.09px;
-    
-}
-button {
-    margin-left: 510px;
+    color: #B4AD9E;
 }
 img {
     width: 100%;
     height: 280px;
     margin-top: 70px;
 }
+img:hover {
+    opacity: 0.75;
+}
 button {
     width: 165px;
     height: 60px;
     margin-bottom: 70px;
+    margin-left: 510px;
+    margin-top: 30px;
     font-family: Playfair Display, serif;
     font-size: 14px;
     font-weight: 400;
@@ -66,6 +68,8 @@ h2 {
     margin-bottom: 40px;
     font-family: Playfair Display, serif;
     line-height: 16.09px;
+    color: #626262;
+    font-weight: normal;
 }
 p {
     font-family: Playfair Display, serif;
@@ -73,10 +77,5 @@ p {
     font-weight: 400;
     margin-bottom: 60px;
     line-height: 18.66px;
-}
-a:hover {
-    color: #03A9F4;
-}
-img:hover {
-    opacity: 0.75;
+    color: #626262;
 }
