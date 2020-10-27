@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 
 }
-li {
+.listelement {
     display: inline-block;
     font-size: 15PX;
     margin-right: 100px;
@@ -23,7 +23,7 @@ li {
     display: inline-block;
      width: 420px; 
 }
-body {
+.menu {
     color: grey;
 }
 .cards {
@@ -58,6 +58,10 @@ button {
     font-size: 14px;
     font-weight: 400;
 }
+button:hover {
+    color: white;
+    background-color: #03a9f4;
+}
 h2 {
     margin-bottom: 40px;
     font-family: Playfair Display, serif;
@@ -69,4 +73,10 @@ p {
     font-weight: 400;
     margin-bottom: 60px;
     line-height: 18.66px;
+}
+a:hover {
+    color: #03A9F4;
+}
+img:hover {
+    opacity: 0.75;
 }

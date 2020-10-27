@@ -32,16 +32,6 @@ body {
 .card:nth-child(2n+1){ 
     margin-right: 66px;
 }
-h3 {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    font-family: Ubuntu, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: uppercase;
-    line-height: 16.09px;
-    
-}
 button {
     margin-left: 510px;
 }
@@ -69,10 +59,4 @@ p {
     font-weight: 400;
     margin-bottom: 60px;
     line-height: 18.66px;
-}
-a:hover {
-    color: #03A9F4;
-}
-img:hover {
-    opacity: 0.75;
 }
