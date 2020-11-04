@@ -6,24 +6,30 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-top: 17px;
-margin-bottom: 68px;
 }
 
 .logo {
 color: #95e1d3;
 font-family: "Montserrat", sans-serif;
+justify-content: center;
+align-items: center;
+}
+ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 li {
     display: inline-block;
-    align-items: center;
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #95e1d3;
   font-weight: 400;
   line-height: 17.07px;
-    margin-right: 55px;
+  margin-right: 55px;
 }
+
 li::after {
     content: '';
     display: inline-block;
@@ -32,7 +38,6 @@ li::after {
 transition: all 0.2s;
     transform: scaleX(0);
     background-color: #F38181;
-;
 }
 li:hover::after {
     transform: scaleX(1);
@@ -215,4 +220,7 @@ border-color: #95E1D3;
     display: flex;
    justify-content: space-evenly; 
    align-items: center;
+}
+main {
+
 }
