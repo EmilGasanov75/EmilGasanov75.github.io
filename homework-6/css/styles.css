@@ -1,0 +1,232 @@
+    * {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 92px;
+     width: 66.71vw;
+     align-items: center;
+     position: relative;
+     left: 20%;
+}
+    .container {
+        width: 66.71vw;
+        align-self: center;
+    }
+
+    .logo {
+        font-family: "Bilbo Swash Caps", sans-serif;
+        color: #FED136;
+        font-style: normal;
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 35px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 39.16vw;
+        margin-top: 41.5px;
+    }
+ul{ 
+        display: flex;
+        justify-content: space-between;
+        width: 39.16vw;
+
+}
+    li {
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        color: #FED136;
+        font-weight: bold;
+        line-height: 17.07px;
+    }
+
+    li:hover {
+        color: #7cc1f0;
+    }
+    li::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        transition: all 0.5s;
+        transform: scaleX(0);
+        background-color: #0059ff;
+    }
+
+  li:hover::after {
+        transform: scaleX(1);
+    }
+    li::before {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        transition: all 0.5s;
+        transform: scaleX(0);
+        background-color: #0059ff;
+    }
+
+    li:hover::before{
+        transform: scaleX(1);
+    }
+    .header {
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .benefits {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 119px;
+    }
+
+    h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-block {
+        margin-bottom: 93.5px;
+    }
+
+    .img-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle {
+        width: 70px;
+        height: 69px;
+        display: flex;
+        opacity: 1;
+        border-radius: 50%;
+        border: 3px solid #FED136;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 18.7px;
+
+    }
+
+    .benefit-description {
+        width: 304px;
+        height: 56px;
+        text-align: center;
+    }
+
+    .benefit-title {
+        margin-bottom: 15.583px;
+    }
+
+    .description {
+        color: #777777;
+        font-family: "Roboto Slab", sans-serif;
+    }
+
+    .form-container {
+        display:flex;
+        flex-direction: column;
+        background-color: #222222;
+        padding-top: 90px;
+    }
+    form {
+        width: 66.71vw;  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-self: center;
+    }
+
+    .form-text {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        margin-top: 115px;
+        font-size: 40px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 115px;
+    }
+
+    input {
+        display: block;
+        width: 457px;
+        height: 53px;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        padding-left: 21px;
+    }
+
+    input:nth-child(2n+2) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    input::placeholder {
+        color: #BBBBBB;
+    }
+
+    .question {
+        display: inline-block;
+        color: black;
+    }
+
+    textarea {
+        
+        width: 458px;
+        height: 212px;
+        resize: none;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+        padding-top: 14px;
+        padding-left: 22px;
+    }
+
+    textarea::placeholder {
+        color: #BBBBBB;
+    }
+
+    .message {
+        color: black;
+    }
+
+    button {
+        margin-top: 27px;
+        background-color: #FED136;
+        width: 242px;
+        height: 68px;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        border: #FED136 solid 1px;
+        border-radius: 3px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 115px;
+        background-color: #222222;
+    }
