@@ -1,7 +1,6 @@
     * {
         margin: 0;
         padding: 0;
-        cursor: default;
     }
 
     body {
@@ -180,6 +179,7 @@ width: 100%;
         display: flex;
         flex-direction: column;
         background-color: #222222;
+        width: 100vw;
     }
 
     form {
@@ -189,7 +189,15 @@ width: 100%;
         align-items: center;
         flex-wrap: nowrap;
         align-self: center;
+        flex-direction: column;
     }
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
 
     .form-text {
         color: #fff;
