@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.container {
+    width: 66.41vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+height: 70px;
+background-color: #e0a143;
+}
+
+nav {
+    width: 66.41vw;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+.headtext {
+    font-family: "Pangolin", sans-serif;
+    font-size: 24px;
+    color: #154742;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+
+}
+
+.l {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+}
+
+a:hover {
+    color: #3c958b;
+}
+
+.banner {
+    display:block;
+   background-image: url(../images/banner.jpg);
+   width: 100vw;
+   height: 405px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "Pangolin", sans-serif;
+    font-size: 40px;
+    color: #154742;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#books {
+    background-color: #c8e5fa;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text-description {
+    margin-left: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.book-img-block {
+    width: 100%;
+    border: 3px solid #3c958b;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.img-block {
+    width: 100%;
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.book {
+    width: 18%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.text-block {
+    width: 100%;
+    text-align: center;
+    font-family: "Pangolin", sans-serif;
+}
+
+.fact-img-block {
+    width: 40px;
+    align-self: center;
+margin-bottom: 30px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Pangolin", sans-serif;
+    flex-wrap: wrap;
+}
+
+.fact {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.info {
+    display: flex;
+    align-items: space-between;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 300px;
+    font-family: "Oswald", sans-serif;
+    border: 2px solid #a8a5a5;
+    background-color: #f1f1f1;
+    height: 40px;
+}
+
+.form-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkboxes {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-self: start;
+     width: 60%;
+}
+
+.info::placeholder {
+    color: #222222;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: space-between;
+    margin-right: 20px;
+    border: 2px solid #a8a5a5;
+}
+
+.checking {
+    display: flex;
+    align-items: center;
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  width: 48%;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    background-color: #3c958b;
+    border: none;
+    color: #fff;
+        font-family: "Oswald",
+        sans-serif;
+        font-size: 16px;
+}
+
+button:hover {
+    background-color: #e0a143;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
