@@ -373,6 +373,12 @@ h2 {
         margin-top: 35px;
     }
 
+    .people-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
 
     .person {
         width: 41.27%;
@@ -388,3 +394,33 @@ h2 {
         width: 41.48%;
     }
 }
+
+@media (min-width: 1440px) {
+    nav {
+width: 61.9%;
+    }
+
+    .about-holiday {
+        width: 35.27vw;
+    }
+
+    .button {
+width: 15.83vw;
+display: flex;
+
+text-align: center;
+    }
+
+    .people {
+        width: 63.47vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .person {
+        width: 27.02%;
+    }
+
+
+}
+
