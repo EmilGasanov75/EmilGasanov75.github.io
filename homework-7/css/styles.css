@@ -6,147 +6,392 @@
 }
 
 body {
-    width: 100vw;
+    display: flex;
+justify-content: center;
 }
 
 main {
     width: 100vw;
 }
 
-a {
+.container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+    
+}
+
+.holiday-container {
+    background-image: url(../img/desk-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-holiday {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-self: center;
+}
+
+.log-in {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 112px;
+    width: 50.93vw;
+    align-self: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 100vw;
+    width: 92px;
+    height: 39px;
+    margin-left: 10px;
+}
+
+.log-in a {
     text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #fff;
+    text-align: center;
+    width: 77.18%;
+display: flex;
+align-self: center;
+}
+
+.title {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        width: 95%;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 12px;
+text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    margin-bottom: 12px;
+}
+
+.button {
+        font-family: "Montserrat",
+        sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0px;
+        color: #fff;
+        background-color: #FF4E50;
+        margin-top: 17px;
+        height: 43px;
+        width: 88.125%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-bottom: 136px;
+        text-decoration: none;
+}
+
+.people {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 95%;
+        align-self: center;
+}
+
+.people-title {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 63px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.man {
+    display: flex;
+    align-self: center;
+}
+
+.first-man .man {
+    background-image: url(../img/person-1.png);
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+
+.second-man .man {
+    background-image: url(../img/person-2.png);
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+
+.man {
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+width: 120px;
+}
+
+.third-man .man {
+    background-image: url(../img/person-3.png);
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.fourth-man .man {
+    background-image: url(../img/person-4.png);
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+.fourth-man .img {
+    background-color: #4E73DB;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 77.19%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.person h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0px;
-    color: #ffffff;
-}
-
-.sign-up {
-    border: 2px solid #FFFFFF;
-    padding-bottom: 11px;
-    padding-top: 11px;
-    padding-right: 5px;
-    padding-left: 5px;
-    border-radius: 30px;
-    width: 92px;
-    height: 39px;
-
-}
-
-.holiday-box {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    background-image: url(../img/desk-header.png);
-    background-position: center;
-    background-size: cover;
-    flex-direction: column;
-}
-
-.menu {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-direction: row;
-    height: 39px;
-}
-
-.log-in {
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff;
     text-align: center;
-    margin-bottom: 22px;
+color: #333333;
+margin-top: 13px;
+margin-bottom: 13px;
 }
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 30.041px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 63.39px;
-    text-align: center;
-    width: 508px;
-    margin-bottom: 12px;
-}
-
-h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: center;
-    color: #ffffff;
-
-}
-
-h5 {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 13px;
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff;
-}
-
-.holiday-about {
-    margin-top: 136px;
-    width: 88.125%;
-}
-
-.login {
-    margin-top: 47px;
-}
-
-.button {
-    border: 30px;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
-    background-color: #fF4E50;
-    height: 43px;
-    width: 282px;
-    margin-bottom: 233px;
-    margin-top: 17px;
-}
-
-p {
+.person p {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 0px;
-    margin-bottom: 30px;
-}
-
-.man {
-    margin-bottom: 31px;
-    width: 70.67%;
+    text-align: center;
+color: #666666;
 }
 
 .people {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+align-self: center;
 }
 
-h4 {
-    color: #333333;
-    font-family: "Montserrat", sans-serif;
+.button-people {
+    font-family: "Montserrat",
+        sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
     letter-spacing: 0px;
-    margin-bottom: 10px;
+    color: #FF4E50;
+    border: 2px solid #FF4E50;
+    background-color: #ffffff;
+    margin-top: 17px;
+    height: 43px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 56px;
+    text-decoration: none;
 }
+
+.button-container {
+    width: 88.125%;
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        width: 100vw;        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: space-between;
+        width: 87.64vw;
+    }
+
+    .log-in {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 42px;
+    }
+
+    .about-holiday {
+        width: 66.01vw;
+    }
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 52px;
+    line-height: 63px;
+    margin-bottom: 36px;
+}
+
+    .button {
+        width: 29.68vw;
+        margin-top: 33px;
+        margin-bottom: 233px;
+    }
+
+    .people {
+        width: 61.19%;
+        display: flex;
+        flex-wrap: wrap;        
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+
+    .people-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .person {
+        width: 41.27%;
+        height: 227px;
+    }
+
+    .text {
+        width: 100%;
+
+    }
+
+    .button-container {
+        width: 41.48%;
+    }
+}
+
+@media (min-width: 1440px) {
+    nav {
+width: 61.9%;
+    }
+
+    .about-holiday {
+        width: 35.27vw;
+    }
+
+    .button {
+width: 15.83vw;
+display: flex;
+
+text-align: center;
+    }
+
+    .people {
+        width: 63.47vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .person {
+        width: 27.02%;
+    }
+
+.button-container {
+    width: 13.54vw;
+}
+}
+
