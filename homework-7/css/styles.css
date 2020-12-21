@@ -11,7 +11,7 @@ justify-content: center;
 }
 
 main {
-    width: 100vw;
+    width: 100%;
 }
 
 .container {
@@ -19,7 +19,7 @@ main {
         justify-content: center;
         flex-direction: column;
         align-self: center;
-    
+    width: 100%;
 }
 
 .holiday-container {
@@ -46,17 +46,21 @@ nav {
     flex-direction: column-reverse;
     justify-content: center;
     align-self: center;
+    vertical-align: middle;
+        margin-bottom: 112px;
 }
 
 .log-in {
     display: flex;
     justify-content: center;
-
-    margin-bottom: 112px;
     width: 50.93vw;
     align-self: center;
-    margin-top: 30px;
+    margin-top: 36px;
     align-items: center;
+}
+
+.logo {
+    margin-top: 42px;
 }
 
 .sign-up {
@@ -132,7 +136,8 @@ h1 {
         background-color: #FF4E50;
         margin-top: 17px;
         height: 43px;
-        width: 88.125%;
+        width: 100%;
+        max-width: 282px;
         border-radius: 30px;
         display: flex;
         justify-content: center;
@@ -140,6 +145,7 @@ h1 {
         align-self: center;
         margin-bottom: 136px;
         text-decoration: none;
+
 }
 
 .people {
@@ -259,6 +265,8 @@ align-self: center;
 }
 
 .button-people {
+    width: 100%;
+    max-width: 283px;
     font-family: "Montserrat",
         sans-serif;
     font-size: 14px;
@@ -280,15 +288,12 @@ align-self: center;
     text-decoration: none;
 }
 
-.button-container {
-    width: 88.125%;
-    align-self: center;
-}
+
 
 @media (min-width: 768px) {
 
     .container {
-        width: 100vw;        
+        width: 100%;        
     }
 
     nav {
@@ -360,7 +365,8 @@ h2 {
     }
 
     .button-container {
-        width: 41.48%;
+         width: 100%;
+         max-width: 282px;
     }
 }
 
@@ -391,7 +397,8 @@ text-align: center;
     }
 
 .button-container {
-    width: 13.54vw;
+            width: 100%;
+            max-width: 195px;
 }
 }
 
