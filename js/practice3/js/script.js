@@ -40,9 +40,9 @@
 
 // console.log(typeof(result));
 
-// let email = 'emil.hasanov.gamer@gmail.com';
+let email = 'emil.hasanov.gamer@gmail.comm';
 
-// console.log(email.length)
+console.log(email.length)
 
 // alert(email.includes("@"))
 
