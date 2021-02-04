@@ -5,7 +5,10 @@ let num = 123;
 let flag = true;
 let txt = 'true';
 
-console.log(typeof (str, num, flag, txt));
+console.log(typeof (str));
+console.log(typeof (num));
+console.log(typeof (flag));
+console.log(typeof (txt));
 // 2-task
 
 const name = 'emil';

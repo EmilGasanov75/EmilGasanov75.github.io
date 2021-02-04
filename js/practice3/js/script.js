@@ -1,3 +1,5 @@
+//1
+
 //const k1 = Number.parseInt('5px');
 
 //const k2 = Number.parseInt('12djd334');
@@ -13,6 +15,8 @@
 //console.log(k3);
 
 //console.log(k4);
+
+//2
 
 // const k1 = Number.parseFloat('5px');
 
@@ -30,21 +34,33 @@
 
 // console.log(k4);
 
+//3
+
 // console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18));
+
+//4
 
 // console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18));
 
+//5
+
 // console.log((Math.random) * (19 - 3) + 1);
+
+//6
 
 // let result = 5+5+'5';
 
 // console.log(typeof(result));
 
-let email = 'emil.hasanov.gamer@gmail.comm';
+//7
 
-console.log(email.length)
+// let email = 'emil.hasanov.gamer@gmail.comm';
+
+// console.log(email.length)
 
 // alert(email.includes("@"))
+
+//8
 
 // const name = 'Stas';
 
