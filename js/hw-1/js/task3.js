@@ -3,16 +3,18 @@
 let promp = prompt('Password?');
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
-if(promp === null) {
-    alert('Скасовано користувачем')
-}
 
-message = 'Доступ заборонений, невірний пароль!';
+if(promp === null) {
+message = 'Скасовано користувачем';
+    alert(message)
+}
 
 if(promp === ADMIN_PASSWORD) {
-    alert('Welcome')
+message = 'welcome';
+    alert(message)
 }
 
-else {
-    alert(message);
+if(promp !== ADMIN_PASSWORD && promp != null) {
+message = 'Неправильний пароль';
+    alert(message)
 }
