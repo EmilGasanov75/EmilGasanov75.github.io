@@ -17,13 +17,11 @@
 // for(let i = 20; i < 29; i++) {
 // console.log(i);
 // }
+
 // //4
-
-       
-
+    
 let charactername = '';
 
 do {
     charactername = prompt('Ваш улюблений герой', '');
-console.log('Ваш улюблений герой :', charactername);
 } while (charactername.length < 6);

@@ -20,7 +20,10 @@
 // console.log(message.indexOf('l'))
 // console.log(splittedmessage.join(''))]
 
-const styles = ['Джаз', 'Блюз']
+// const styles = ['Джаз', 'Блюз']
 
-styles[2] = 'Рок-н-ролл'
-styles[1] = 'Класика'
+// styles[2] = 'Рок-н-ролл'
+// styles[1] = 'Класика'
+// styles.shift();
+// styles.splice(0, 0, 'Реп', 'Реггі')
+// console.log(styles);

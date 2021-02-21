@@ -28,15 +28,9 @@
 
 //4
 
-// const age = 15;
+// const age = 59;
 
-// let StAgeGroup= (age >= 0 && age <= 16);
-
-// let ndAgeGroup= (age >= 17 && age <= 60);
-
-// let rdAgeGroup= (age >= 61 && age <= 100);
-
-// if(age = 0 && age <= 16) {
+// if(age >= 0 && age <= 16) {
 //     alert('Максим дитина')
 // }
 
@@ -90,6 +84,9 @@
 // // else {
 // //     console.log('oops')
 // // }
+
+//7
+
 // let result;
 // let random_number = Math.floor(Math.random() * 6 )
 
@@ -114,10 +111,10 @@
 //     result=5
 // }
 
+//8
+
 // let NeightborAge= parseInt(prompt('Вік вашого сусіда зліва'));
 // let myage = 11;
-
-//7
 
 // if(NeightborAge >= 12) {
 //     console.log(NeightborAge + myage);
