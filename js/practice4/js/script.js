@@ -38,7 +38,7 @@
 //     alert('Максим дорослий')
 // }
 
-// if(age >= 60 && age <= 100) {
+// if(age >= 61 && age <= 100) {
 //     alert('Максим старий')
 // }
 
@@ -87,28 +87,30 @@
 
 //7
 
-// let result;
 // let random_number = Math.floor(Math.random() * 6 )
 
-// if (random_number=1) {
-//     if(random_number==1) {
-//         result=1;
-//     }
-// }
-// else if (random_number<=5) if (random_number=1) {
-//     result=2
+// if(random_number === 1) {
+//     console.log(1);
 // }
 
-// else if (random_number<=5) if (random_number=2) {
-//     result=3
+// if(random_number === 2) {
+//     console.log(2);
 // }
 
-// else if (random_number<=5) if (random_number=3) {
-//     result=4
+// if(random_number === 3) {
+//     console.log(3);
 // }
 
-// else if (random_number<=5) if (random_number=4) {
-//     result=5
+// if(random_number === 4) {
+//    console.log(4);
+// }
+
+// if(random_number === 5) {
+//     console.log(5);
+// }
+
+// if(random_number === 6) {
+//     console.log(6);
 // }
 
 //8

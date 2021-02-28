@@ -1,3 +1,5 @@
+//1
+
 // let Arr1 = [1, 5, '4', 'hello'];
 // let Arr2 = [true, 2, {}, ['a'], 222]
 
@@ -5,12 +7,18 @@
 // console.log(Arr2[1]);
 // console.log(Arr1[1] + Arr2[1]);
 
+//2
+
 // Arr1[4] = 22;
 // console.log(Arr1);
+
+//3
 
 // for (const _element of Arr2) {
 //     console.log(_element, typeof(_element))
 // }
+
+//4
 
 // const message = 'Welcome to Ukraine!'
 // const splittedmessage = message.split('')
@@ -19,6 +27,8 @@
 // }
 // console.log(message.indexOf('l'))
 // console.log(splittedmessage.join(''))]
+
+//5
 
 // const styles = ['Джаз', 'Блюз']
 
