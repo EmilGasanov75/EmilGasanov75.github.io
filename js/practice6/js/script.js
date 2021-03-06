@@ -9,10 +9,16 @@
 
 //2
 
-// Arr1[4] = 22;
-// console.log(Arr1);
+let Arr1 = [1, 5, '4', 'hello'];
+Arr1[4] = 22;
+console.log(Arr1[0]);
+console.log(Arr1[1]);
+console.log(Arr1[2]);
+console.log(Arr1[3]);
 
 //3
+
+// let Arr2 = [true, 2, {}, ['a'], 222]
 
 // for (const _element of Arr2) {
 //     console.log(_element, typeof(_element))
@@ -26,7 +32,7 @@
 //     console.log(_messageelement)
 // }
 // console.log(message.indexOf('l'))
-// console.log(splittedmessage.join(''))]
+// console.log(splittedmessage.join(''))
 
 //5
 
