@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>бот чи не бот</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Бот чи не бот?</h1>
+    
+        <button id="btn" type="button">Перевірити</button>
+        <h1 id="id"></h1>
+        <p id="p"></p>
+    <script>
+        let btn = document.querySelector("#btn")
+        let abc = Math.random() * (100 - 1) + 1
+        btn.addEventListener("click", function(e) {
+            e.preventDefault()
+            let a = prompt("Введіть ім'я")
+            if (a.includes("д") || a.includes("н") ||a.includes("л") ||a.includes("й") ||a.includes("с") ||a.includes("т") ||a.includes("р") ||a.includes("ц") ||a.includes("р") ||a.includes("х") ) {
+                document.querySelector("#id").textContent = "Бот"
+            } else {
+                document.querySelector("#id").textContent = "Не бот"
+            }
+            document.querySelector("#p").textContent = `*Ви бебрик на ${abc.toFixed(1)}%*`
+        })
+    </script>
+</body>
+</html>
